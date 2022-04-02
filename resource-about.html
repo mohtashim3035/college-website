@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <span class="material-icons">
+        home
+        </span> -->
+    <link rel="stylesheet" href="resource.css">
+    <title>DCET Student Resource</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"> -->
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <section class="sub-header">
+     <nav>
+         <div class="logo">
+            <a href="resource.html" ><img class="logo" src="webimgs/logo2.png"></a>
+         </div>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+             <ul>
+                <li><a href="resource.html">Home</a></li>
+                <li><a href="resource-about.html">About</a></li>
+                <li><a href="resource-course.html">Course</a></li>
+                <li><a href="resource-faculty.html">Faculty</a></li>
+                <li><a href="resource-contact.html">Contact Us</a></li>
+                <!-- <li><a href="resource-login.html" target="blank">LogIn</a></li> -->
+                <!-- <li><button class="loginbtn" onclick="document.getElementById('login-form').style.display='block' "style="width:auto;">Login</button> -->
+             <li><a href="logout.php"> <b> LOG-OUT </b></a></li>
+             </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+     </nav>
+     <h1>About Us</h1>
+</section>
+
+<!-- about us content -->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>MISSION AND VISION</h1>
+            <P>
+                Our Mission is to identify, scientifically evaluate and implement proven, prevention oriented, forward-looking solutions to critical scientific and technological problems and bring technical education of international standard within the reach of all and uplift the weaker Muslim minority community in particular.
+                <br><br>
+                We are committed to achieve and maintain excellence in Higher Technical Education, Placement and Research for the benefit of society.
+                <br><br>
+                We dedicate and commit ourselves, sustain and foster unmatched excellence in Technical Education. To this end, we will pursue continuous development of infrastructure and enhance state-of-the art equipment to provide our students a technologically up-to-date and intellectually inspiring environment of learning, research, innovation and professional activity and inculcate in them ethical and moral values.
+                <br><br>
+                The college is committed to raise the intellectual tone of the young students in understanding and incorporating the basics of rapidly progressing changes in the fields of Science, Engineering & Technology Education with an objective of enhancing their competence by applying their proficiency and skill for Industrial and Economic development.
+            </P>
+             <a href="http://deccancollege.ac.in/mission_vission.html" target="blank" class="fst-button new-btn">EXPLORE NOW </a>
+        </div>
+        <div class="about-col">
+            <img src="webimgs/about-us1.png" alt="">
+        </div>
+
+    </div>
+</section>
+
+
+<!-- footer -->
+<section class="footer">
+    <h4> About US</h4>
+    <p> This website has been created by DCET students -sd.mohtashim,-adnan asim,-md.muzammil</p>
+   
+    <div class="icons">
+         <i class= "fa fa-facebook"></i>
+         <i class= "fa fa-twitter"></i>
+         <i class= "fa fa-instagram"></i>
+         <i class= "fa fa-linkedin"></i>
+         <i class= "fa fa-youtube"></i>
+    </div>
+    
+    <p>copy right &copy; 2021,belongs to deccan students and team</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- js closing and opening of menu(toggle) -->
+<script>
+
+let navLinks = document.getElementById("navLinks");
+ 
+function showMenu(){
+    navLinks.style.right = "0";
+}
+function hideMenu(){
+    navLinks.style.right="-200px";
+}
+
+</script>
+
+</body>
+</html>
